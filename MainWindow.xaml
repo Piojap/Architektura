@@ -66,15 +66,15 @@
 		</Grid.RowDefinitions>
 
 <!--REGISTER CHOICES - RADIO BUTTONS-->
-		<RadioButton GroupName="From" x:Name="FromAXButton" IsChecked="True" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Right"/>
-		<RadioButton GroupName="From" x:Name="FromBXButton" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Right"/>
-		<RadioButton GroupName="From" x:Name="FromCXButton" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Right"/>
-		<RadioButton GroupName="From" x:Name="FromDXButton" Grid.Column="2" Grid.Row="5" HorizontalAlignment="Right"/>
+		<RadioButton GroupName="To" x:Name="ToAXButton" IsChecked="True" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Right"/>
+		<RadioButton GroupName="To" x:Name="ToBXButton" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Right"/>
+		<RadioButton GroupName="To" x:Name="ToCXButton" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Right"/>
+		<RadioButton GroupName="To" x:Name="ToDXButton" Grid.Column="2" Grid.Row="5" HorizontalAlignment="Right"/>
 
-		<RadioButton GroupName="To" x:Name="ToAXButton" IsChecked="True" Grid.Column="6" Grid.Row="2" HorizontalAlignment="Left"/>
-		<RadioButton GroupName="To" x:Name="ToBXButton" Grid.Column="6" Grid.Row="3" HorizontalAlignment="Left"/>
-		<RadioButton GroupName="To" x:Name="ToCXButton" Grid.Column="6" Grid.Row="4" HorizontalAlignment="Left"/>
-		<RadioButton GroupName="To" x:Name="ToDXButton" Grid.Column="6" Grid.Row="5" HorizontalAlignment="Left"/>
+		<RadioButton GroupName="From" x:Name="FromAXButton" IsChecked="True" Grid.Column="6" Grid.Row="2" HorizontalAlignment="Left"/>
+		<RadioButton GroupName="From" x:Name="FromBXButton" Grid.Column="6" Grid.Row="3" HorizontalAlignment="Left"/>
+		<RadioButton GroupName="From" x:Name="FromCXButton" Grid.Column="6" Grid.Row="4" HorizontalAlignment="Left"/>
+		<RadioButton GroupName="From" x:Name="FromDXButton" Grid.Column="6" Grid.Row="5" HorizontalAlignment="Left"/>
 
 <!--TEXT - TEXT BLOCKS-->
 		<TextBlock Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="7" Text="Intel 8086 Simulator" FontSize="36" VerticalAlignment="Bottom" TextDecorations="Underline"/>
